@@ -1,0 +1,100 @@
+body{
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #caf0f8;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 500px;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+}
+
+#text{
+  font-family: 'Outfit', sans-serif;
+  font-size: 30px;
+}
+
+#new-quote{
+  background: #0077b6;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  
+}
+
+.tQuote{
+  background: #0077b6;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#new-quote:hover{
+  background: #023e8a;
+}
+
+.tQuote:hover{
+  background: white;
+  border: #0077b6 1px solid;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  color: #0077b6;
+}
+
+i{
+  padding-right: 5px;
+}
+
+#author{
+  text-align: end;
+  font-style: italic;
+  padding: 20px;
+}
+
+.bottons{
+  width: 500px;
+  margin-top:30px ;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+
+@media(max-width: 500px) {
+  .wrapper{
+
+    max-width: 300px;
+    width: 100%;
+  }
+  .bottons{
+    max-width: 300px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+
+  }
+}
